@@ -4,3 +4,5 @@ Revision history for Perl extension PerlT::LP5.
 	- original version; created by h2xs 1.23 with options
 		-XAn PerlT::LP5 -b 5.10.1
 
+0.01  Mon Aug  8 02:10:00 2016
+	- added a new module PerlT::LP5::Ch01
