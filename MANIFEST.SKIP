@@ -71,3 +71,6 @@
 
 # Avoid all files in dist
 \bdist/.*
+
+# Avoid tmp html files
+tmp.*\.html

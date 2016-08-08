@@ -69,7 +69,7 @@ PerlT::LP5::Ch03 - Solutions to exersises from the Chapter 3 of the book
 
 =head1 SYNOPSIS
 
-  use PerlT::LP5;
+  use PerlT::LP5::Ch03;
 
 =head1 DESCRIPTION
 

@@ -82,7 +82,7 @@ PerlT::LP5::Ch02 - Solutions to exersises from the Chapter 2 of the book
 
 =head1 SYNOPSIS
 
-  use PerlT::LP5;
+  use PerlT::LP5::Ch02;
 
 =head1 DESCRIPTION
 

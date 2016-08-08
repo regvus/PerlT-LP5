@@ -49,7 +49,7 @@ PerlT::LP5::Ch01 - Solutions to exersises from the Chapter 1 of the book
 
 =head1 SYNOPSIS
 
-  use PerlT::LP5;
+  use PerlT::LP5::Ch01;
 
 =head1 DESCRIPTION
 

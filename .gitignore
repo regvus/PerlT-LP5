@@ -19,5 +19,6 @@ nytprof.out
 *.bs
 /_eumm/
 *.komodoproject
-/bin/testing.*
+/bin/testing*
+tmp*.html
 /dist/
