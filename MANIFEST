@@ -1,10 +1,12 @@
 Changes
 lib/PerlT/LP5.pm
 lib/PerlT/LP5/Ch01.pm
+lib/PerlT/LP5/Ch02.pm
 Makefile.PL
 MANIFEST			This list of files
 README
 t/00-PerlT-LP5.t
 t/01-PerlT-LP5-Ch01.t
+t/02-PerlT-LP5-Ch02.t
 t/98-Pod.t
 t/99-Pod-Coverage.t

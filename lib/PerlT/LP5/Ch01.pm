@@ -60,17 +60,23 @@ the Chapter 1 of the book "Learning Perl, 5th Edition".
 
 =over
 
-=item ex01()
+=item B<ex01>
 
-prints "Hello, World!\n"
+    ex01;
 
-=item ex02()
+Prints "Hello, World!\n".
 
-prints an output of the command `perldoc -i -f atan2`
+=item B<ex02>
 
-=item ex03()
+    ex02;
 
-prints a formated output of the command `perldoc -i -f atan2`
+Prints an output of the command `perldoc -i -f atan2`.
+
+=item B<ex03>
+
+    ex03;
+
+Prints a formated output of the command `perldoc -i -f atan2`.
 
 =back
 
