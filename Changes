@@ -27,3 +27,6 @@ Revision history for Perl extension PerlT::LP5.
 
 0.07  Tue Aug  10 01:40:00 2016
 	- added a new module PerlT::LP5::Ch07
+
+0.08  Tue Aug  10 22:24:00 2016
+	- added a new module PerlT::LP5::Ch08
