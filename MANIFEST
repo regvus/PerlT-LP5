@@ -9,6 +9,7 @@ lib/PerlT/LP5/Ch06.pm
 lib/PerlT/LP5/Ch07.pm
 lib/PerlT/LP5/Ch08.pm
 lib/PerlT/LP5/Ch09.pm
+lib/PerlT/LP5/Ch10.pm
 Makefile.PL
 MANIFEST			This list of files
 README
@@ -22,5 +23,6 @@ t/06-PerlT-LP5-Ch06.t
 t/07-PerlT-LP5-Ch07.t
 t/08-PerlT-LP5-Ch08.t
 t/09-PerlT-LP5-Ch09.t
+t/10-PerlT-LP5-Ch10.t
 t/98-Pod.t
 t/99-Pod-Coverage.t
