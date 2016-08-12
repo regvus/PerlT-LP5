@@ -1,4 +1,4 @@
-package PerlT::LP5;
+package PerlT::LP5::Ch11;
 
 use 5.10.1;
 use strict;
@@ -15,34 +15,53 @@ our %EXPORT_TAGS = ( 'all' => [ qw(
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
 our @EXPORT = qw(
-	
+    ex01
+    ex02
+    ex03
 );
 
-our $VERSION = '0.11';
+our $VERSION = '0.01';
 
+use Module::CoreList;
 
+# ex01
+
+sub ex01 {
+    my %modules = %{ $Module::CoreList::version{5.010} };
+
+    print map {"$_ -> " . ($modules{$_} // '') . "\n"}
+        sort keys %modules;
+}
 
 1;
 __END__
-
 =head1 NAME
 
-PerlT::LP5 - Solutions to exersises from the book "Learning Perl, 5th Edition"
+PerlT::LP5::Ch11 - Solutions to exersises from the Chapter 11 of the book
+"Learning Perl, 5th Edition"
 
 =head1 SYNOPSIS
 
-  use PerlT::LP5;
+  use PerlT::LP5::Ch11;
 
 =head1 DESCRIPTION
 
-Module PerlT::LP5 is used to keep some useful scripts and solutions to exercises
-from the book "Learning Perl, 5th Edition".
+Module PerlT::LP5::Ch11 is used to keep solutions to exercises from
+the Chapter 11 of the book "Learning Perl, 5th Edition".
+
+=head2 FUNCTIONS
+
+=over
+
+=item B<ex01>
+
+    ex01;
+
+=back
 
 =head2 EXPORT
 
-None by default.
-
-
+ex01
 
 =head1 SEE ALSO
 
